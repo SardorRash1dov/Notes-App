@@ -1,0 +1,56 @@
+.textarea form textarea {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid rgba(135, 134, 134, 0.57);
+}
+
+.textarea form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title input {
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(135, 134, 134, 0.57);
+  width: 400px;
+}
+
+form .date{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#data{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(3, 2, 57, 0.355);
+}
+
+form button {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(85, 85, 240);
+  font-size: 17px;
+}
+
+form button:hover{
+  background-color: rgb(122, 122, 252);
+}
+form button:active{
+   background-color: rgb(85, 85, 240);  
+}

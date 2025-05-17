@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: rgb(85, 85, 240);
+  font-size: 17px;
+}
+
+.navbar button:hover{
+  background-color: rgb(122, 122, 252);
+}
+.navbar button:active{
+   background-color: rgb(85, 85, 240);  
+}
+.note-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
